@@ -4,12 +4,14 @@ body{
 }
 
 #logo{
-	margin: auto;
-	
-
+	height: 80px;
+	width: 80px;
 }
 
 #container{
 	display: flex;
-
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+	flex-direction: column;
 }
